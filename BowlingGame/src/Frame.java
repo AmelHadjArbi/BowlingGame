@@ -4,7 +4,7 @@ import java.util.List;
 public class Frame {
 
 	int nummer;
-	List<Integer> throwList = new ArrayList<Integer>();// statt throw1 und throw1 ich habe eine Liste für throws
+	List<Integer> throwList = new ArrayList<Integer>();// statt throw1 und throw2 ich habe eine Liste für throws
 														// erstellt
 
 	public Frame(int num) {

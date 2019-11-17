@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class Game {
 
-	Player player;
+//	Player player;//Klasse Player wird erstmal nicht gebraucht
 	List<Frame> frames = new ArrayList<Frame>(10);
 	int iteration;
 
