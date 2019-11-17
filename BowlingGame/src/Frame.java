@@ -13,14 +13,23 @@ public class Frame {
 
 	@Override
 	public String toString() {
-		if (nummer < 9) {
+		if (nummer <9) {
 			return "Frame " + nummer + " [first Throw =" + throwList.get(0) + ", second Throw =" + throwList.get(1)
 					+ ", score=" + getScore() + "]";
 
-		} else {
+		} else if (isStrike()){
 			return "Frame " + nummer + " [first Throw =" + throwList.get(0) + ", second Throw =" + throwList.get(1)
 					+ ", third Throw =" + throwList.get(2) + ", fourth Throw =" + throwList.get(3) + ", score="
 					+ getScore() + "]";
+		}else if(isSpare()) {
+			return "Frame " + nummer + " [first Throw =" + throwList.get(0) + ", second Throw =" + throwList.get(1)
+			+ ", third Throw =" + throwList.get(2) + ", score="
+			+ getScore() + "]";
+			
+		}else {
+			return "Frame " + nummer + " [first Throw =" + throwList.get(0) + ", second Throw =" + throwList.get(1)
+			+ ", score=" + getScore() + "]";
+			
 		}
 	}
 

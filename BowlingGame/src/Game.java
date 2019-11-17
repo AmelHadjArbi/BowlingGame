@@ -9,11 +9,11 @@ public class Game {
 	public static void main(String[] args) {
 		System.out.println("Game 1 :");
 		Game game1 = new Game();
-		test1(game1);// Beispiel1(von Freitag)
+		test1(game1);// Beispiel nummer 1 (von Freitag)
 		
 		System.out.println("Game 2 :");
 		Game game2 = new Game();
-		test2(game2);//Beispiel2(von Freitag) -> bei variante 2, ich habe 133 statt 151 bekommen auch wenn ich  selbe rechne vielleicht rechne ich falsch oder haben wir Freitag was  übersehen!
+		test2(game2);//Beispiel nummer 2 (von Freitag) -> bei variante 2, ich habe 133 statt 151 bekommen auch wenn ich  selbe rechne, vielleicht rechne ich falsch oder haben wir Freitag was  übersehen!
 		
 		System.out.println("Game 3 :");
 		Game game3 = new Game();
